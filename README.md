@@ -1,5 +1,8 @@
 # deep-mil-for-whole-mammogram-classification
 
+The code is good, but I am encountering version compatibility issues because I am trying to run it on Kaggle, which uses the latest versions of Python libraries.
+
+
 The code is based on keras with theano backend.
 
 Please cite our paper 
