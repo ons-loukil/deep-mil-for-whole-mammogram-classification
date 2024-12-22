@@ -2,7 +2,7 @@
 import scipy.misc
 import numpy as np 
 from sklearn.model_selection import StratifiedKFold
-import cPickle
+import pickle as cPickle
 #import matplotlib
 #import matplotlib.pyplot as plt 
 from skimage.filters import threshold_otsu
@@ -10,7 +10,7 @@ import os
 from os.path import join as join
 import csv
 import scipy.ndimage
-import dicom
+import pydicom as dicom
 #import cv2
 path = '../AllDICOMs/'
 preprocesspath = '../preprocesspath/'
